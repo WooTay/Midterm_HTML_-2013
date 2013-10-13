@@ -1,0 +1,206 @@
+html {
+	background-image:url(blackboard-backgrounds-wallpapers.jpeg);
+	background-size: 900px 3000px;
+	}
+
+	
+.intro header h1, .intro header h2 {
+	display: none;
+	}
+
+.intro header {
+	height: 500px;
+	background-image:url(Zen_Header.png);
+	background-repeat:no-repeat;
+	background-size: auto;
+	max-width:100%;
+    position:fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+	}
+	
+
+#zen-summary { 
+	background-color: white
+	font: rockwell;
+	color: white;
+	border-bottom:4px dotted black;
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+	padding-top: 250px;
+	text-align: center;
+	font-family: arial narrow;
+	text-transform:capitalize;
+	}
+	
+body {
+	color: white;
+	font-family: rockwell;
+	font-size: 18px;
+	}
+
+
+h3 {
+	color: white;
+	border-bottom: 5px dotted white;
+	font-family: Brush Script MT;
+	font-size: 50px;
+	text-shadow: 4px 2px 0px black, 
+				4px 4px 0px gray;
+	}
+
+p {
+	color: #303030;
+	font-family: rockwell;
+	font-size: 18px;
+	}
+
+p:hover { 
+	background-color:white;
+	border-radius:25px;
+	}
+
+a {
+	color: #303030;
+	font-family: Arial Rounded MT Bold;
+	}
+	
+a:hover { 
+	background-color:white;
+	border-radius:25px;
+	}
+
+.preamble {
+	border: 3px solid white;
+	height: 480px; 
+	width: 480px;
+	margin: 15px;
+	padding-right: 7px;
+	padding-left: 7px;
+	text-align: center;
+	float: left;
+	margin-top: 40px;
+	margin-left: 80px;
+	box-shadow: 7px 7px 5px #888888;
+	border-radius:25px;
+	border-style:double;
+	border-width:10px;
+	}
+
+#zen-supporting {
+	border: 3px solid white;
+	height: 480px; 
+	width: 480px;
+	margin: 15px;
+	padding-right: 7px;
+	padding-left: 7px;
+	text-align:center;
+	float: left;
+	margin-top: 40px;
+	margin-left: 20px;
+	box-shadow: 7px 7px 5px #888888;
+	border-radius:25px;
+	border-style:double;
+	border-width:10px;
+	}
+	
+	
+.next {
+	width: 100px;
+	height: 100px;
+	border-color: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	}
+
+.select, .archives, .resources {
+	width: 400px;
+	}
+	
+.participation {
+	border: 3px solid white;
+	height: 380px; 
+	width: 1030px;
+	margin-top: 80px;
+	margin-left: -570px;
+	padding-right: 7px;
+	padding-left: 7px;
+	text-align:center;
+	box-shadow: 7px 7px 5px #888888;
+	border-radius:25px;
+	border-style:double;
+	border-width:10px;
+	padding-top: -10px;
+	}
+	
+.benefits {
+	border: 3px solid white;
+	height: 360px; 
+	width: 480px;
+	margin: 15px;
+	padding-right: 7px;
+	padding-left: 7px;
+	text-align:center;
+	margin-top: 45px;
+	margin-left: -9px;
+	box-shadow: 7px 7px 5px #888888;
+	border-radius:25px;
+	border-style:double;
+	border-width:10px;
+	}
+
+.requirements {
+	border: 3px solid white;
+	height: 870px; 
+	width: 480px;
+	margin: 15px;
+	padding-right: 7px;
+	padding-left: 7px;
+	text-align:center;
+	margin-top: 45px;
+	margin-left: -9px;
+	box-shadow: 7px 7px 5px #888888;
+	border-radius:25px;
+	border-style:double;
+	border-width:10px;
+	}
+	
+.wrapper {
+	border: 8px solid white;
+	height: 950px; 
+	width: 480px;
+	padding-left: 7px;
+	border-radius:25px;
+	margin-left: 60px;
+	box-shadow: 7px 7px 5px #888888;
+	}
+
+.sidebar {
+	height: 360px; 
+	width: 480px;
+	margin: 15px;
+	margin-top: 330px;
+	position:static;
+	top:30px;
+	right:5px;
+	padding-top: 710px;
+	}
+
+	
+.page-wrapper {
+	border: 7px dotted white;
+	height: 3000px; 
+	width: 1,274px;
+	}
+
+@media all and (min-width:800px) {
+
+}
+
+
+
+
