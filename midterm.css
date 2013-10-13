@@ -12,8 +12,7 @@ html {
 	height: 500px;
 	background-image:url(Zen_Header.png);
 	background-repeat:no-repeat;
-	background-size: auto;
-	max-width:100%;
+	background-size: 100%;
     position:fixed; 
     top: 0;
     left: 0;
@@ -192,11 +191,23 @@ a:hover {
 	height: 3000px; 
 	width: 1,274px;
 	}
+	
 
-@viewport {
-   width: device-width; 320px;
-}
-
+@media screen and (max-width:320px) {
+    p , a {
+     font-size: 15px; 
+     color: white;
+     }
+    
+    .preamble, #zen-supporting, .participation, .benefits, {
+    	min-width: 100%;
+    	}
+    .preamble, #zen-supporting {
+    	float: none;
+    	}
+    
+  }
+  
 
 
 
